@@ -1,0 +1,29 @@
+{
+    "name": "lex/botman-middleware-openai",
+    "version": "1.0.0",
+    "license": "MIT",
+    "description": "Middleware for BotMan. Integration with OpenAI.",
+    "keywords": [
+        "Bot",
+        "BotMan",
+        "OpenAI"
+    ],
+    "authors": [
+        {
+            "name": "Agence Lex",
+            "email": "dev@agencelex.com"
+        }
+    ],
+    "require": {
+        "php": ">=8.1",
+        "botman/botman": "^2.0|^3.0",
+        "guzzlehttp/guzzle": "^7.8.1",
+        "openai-php/client": "^0.8"
+    },
+    "autoload": {
+        "psr-4": {
+            "BotMan\\Middleware\\OpenAI\\": "src/"
+        }
+    },
+    "minimum-stability": "stable"
+}
